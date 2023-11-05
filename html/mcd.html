@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/mcd_estilos.css">
+    <script src="../js/cmd.js"></script>
+    <title>Calculadora de MCD</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de MCD</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="../html/Conversiones.html">Conversiones</a></li>
+                <li><a href="../html/mcm.html">MCM</a></li>
+                <li><a href="../html/mcd.html">MCD</a></li>
+                <li><a href="../html/primos.html">Generar primos</a></li>
+                <li><a href="../html/ecuaciones2grado.html">Ecuaciones Cuadráticas</a></li>
+
+
+                <!-- Agrega más enlaces a otras páginas aquí -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <h2>Calcula el Máximo Común Divisor (MCD)</h2>
+            <p>Ingresa dos números y encuentra su MCD y los números que son divisores de ambos:</p>
+            
+            <form id="mcdForm">
+                <label for="num1">Número 1:</label>
+                <input type="number" id="num1" name="num1" required>
+                
+                <label for="num2">Número 2:</label>
+                <input type="number" id="num2" name="num2" required>
+                
+                <input type="submit" value="Calcular MCD y Divisores Comunes">
+            </form>
+            
+            <div id="mcdResult">
+                <!-- Aquí se mostrará el resultado del MCD y los divisores comunes -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Soluciones Matematicas</p>
+    </footer>
+    <script src="mcd.js"></script>
+</body>
+</html>

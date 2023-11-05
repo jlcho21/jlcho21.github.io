@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home_estilos.css">
+    <link rel="stylesheet" href="../css/ecuaciones_estilos.css">
+    <script src="../js/ecuaciones.js"></script>
+    <title>Resolución de Ecuaciones Cuadráticas</title>
+</head>
+<body>
+    <header>
+        <h1>Resolución de Ecuaciones Cuadráticas</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="../html/Conversiones.html">Conversiones</a></li>
+                <li><a href="../html/mcm.html">MCM</a></li>
+                <li><a href="../html/mcd.html">MCD</a></li>
+                <li><a href="../html/primos.html">Generador de Primos</a></li>
+                <li><a href="../html/ecuaciones2grado.html">Ecuaciones Cuadráticas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <h2>Resolución de Ecuaciones Cuadráticas</h2>
+            <p>Ingresa los coeficientes de la ecuación cuadrática:</p>
+            <form id="ecuacionCuadraticaForm">
+                <input type="number" id="a" placeholder="Coeficiente 'a'" required>
+                <input type="number" id="b" placeholder="Coeficiente 'b'" required>
+                <input type="number" id="c" placeholder="Coeficiente 'c'" required>
+                <button type="button" onclick="resolverEcuacionCuadratica()">Resolver</button>
+            </form>
+            <p>Las soluciones son:</p>
+            <p id="solucion1"></p>
+            <p id="solucion2"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Soluciones Matematicas</p>
+    </footer>
+    < src="js/ecuaciones.js"></>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/coversiones_estilos.css">
+    <script src="../js/conversiones.js"></script>
+    <title>Conversiones de Bases Numéricas</title>
+</head>
+<body>
+    <header>
+        <h1>Conversiones de Bases Numéricas</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="../html/Conversiones.html">Conversiones</a></li>
+                <li><a href="../html/mcm.html">MCM</a></li>
+                <li><a href="../html/mcd.html">MCD</a></li>
+                <li><a href="../html/primos.html">Generar primos</a></li>
+                <li><a href="../html/ecuaciones2grado.html">Ecuaciones Cuadráticas</a></li>
+
+                <!-- Agrega más enlaces a otras páginas aquí -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <h2>Convierte Números de Base 10 a Otras Bases</h2>
+            <p>Ingresa un número en base 10 y seleccione la base a la que deseas convertirlo:</p>
+            
+            <form id="conversionForm">
+                <label for="decimalNumber">Número en Base 10:</label>
+                <input type="number" id="decimalNumber" name="decimalNumber" required>
+                
+                <label for="targetBase">Base de Destino:</label>
+                <select id="targetBase" name="targetBase">
+                    <option value="2">Base 2 (binario)</option>
+                    <option value="4">Base 4</option>
+                    <option value="8">Base 8 (octal)</option>
+                    <option value="16">Base 16 (hexadecimal)</option>
+                </select>
+                
+                <input type="submit" value="Convertir">
+            </form>
+            
+            <div id="conversionResult">
+                <!-- Aquí se mostrará el resultado de la conversión -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Soluciones Matematicas</p>
+    </footer>
+</body>
+</html>

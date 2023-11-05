@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Contenedor de diseño de dos columnas (CSS Grid) */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide en dos columnas */
+    gap: 20px; /* Espacio entre las dos columnas */
+}
+
+/* Estilo adicional para los párrafos dentro de la sección de presentación */
+.presentation p {
+    text-align: left; /* Alinea los párrafos a la izquierda */
+}
+
+/* Estilo para el carrusel de imágenes en la parte izquierda */
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-left: 70px;
+}
+
+.carousel img {
+    width: 80%; /* Reducido al 70% del ancho del contenedor */
+    height: auto;
+}
+
+/* Estilos para los controles del carrusel */
+.carousel .controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carousel .controls button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.carousel .controls button:hover {
+    background-color: #555;
+}
